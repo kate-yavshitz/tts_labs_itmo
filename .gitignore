@@ -1,8 +1,9 @@
-data/*
+# данные
 *.wav
 *.npy
 *.pth
 *.TextGrid
+labs/lab1_text/data/metadata_RUSLAN_22200.csv
 
 # окружение
 .venv/
@@ -15,3 +16,7 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
+
+# модели
+*.joblib
+*.pkl
